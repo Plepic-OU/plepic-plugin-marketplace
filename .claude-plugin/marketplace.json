@@ -1,0 +1,16 @@
+{
+  "name": "plepic-plugin-marketplace",
+  "description": "Skills and other artifacts from Plepic courses.",
+  "owner": {
+    "name": "Plepic",
+    "url": "https://github.com/Plepic-OU"
+  },
+  "plugins": [
+    {
+      "name": "teach",
+      "source": "./plugins/teach",
+      "description": "Teaching mode: learn a session's work, a PR, or any topic step by step, with quizzes until you really get it.",
+      "keywords": ["teaching", "learning", "quiz"]
+    }
+  ]
+}
