@@ -14,6 +14,7 @@ A Claude Code plugin marketplace. It collects skills and other artifacts from Pl
 | Plugin  | What it does                                                                  |
 | ------- | ----------------------------------------------------------------------------- |
 | `teach` | `/teach:teach` teaches a session, PR, file or topic step by step with quizzes. |
+| `spec-driven` | `/spec-driven:brainstorming` turns an idea into a design doc. `/spec-driven:validate-design-document` runs project-specific expert validators on it, `/spec-driven:generic-design-review` is a generic baseline. Used in Day 2 of the Agentic Engineering course. |
 
 ## Add a plugin
 
