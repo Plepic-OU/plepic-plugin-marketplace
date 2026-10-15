@@ -10,7 +10,22 @@
       "name": "teach",
       "source": "./plugins/teach",
       "description": "Teaching mode: learn a session's work, a PR, or any topic step by step, with quizzes until you really get it.",
-      "keywords": ["teaching", "learning", "quiz"]
+      "keywords": [
+        "teaching",
+        "learning",
+        "quiz"
+      ]
+    },
+    {
+      "name": "spec-driven",
+      "source": "./plugins/spec-driven",
+      "description": "Spec-driven development kit: brainstorming into a design doc, then validation with expert agents or a generic reviewer.",
+      "keywords": [
+        "spec",
+        "design-doc",
+        "validation",
+        "brainstorming"
+      ]
     }
   ]
 }
