@@ -20,12 +20,14 @@ Get the latest version of every installed plugin:
 | Plugin  | What it does                                                                  |
 | ------- | ----------------------------------------------------------------------------- |
 | `teach` | `/teach:teach` teaches a session, PR, file or topic step by step with quizzes. |
-| `spec-driven` | `/spec-driven:brainstorming` turns an idea into a design doc. `/spec-driven:validate-design-document` runs project-specific expert validators on it, `/spec-driven:generic-design-review` is a generic baseline. Used in Day 2 of the Agentic Engineering course. |
+| `spec-driven` | `/spec-driven:brainstorming` turns an idea into a design doc. `/spec-driven:validate-design-document` runs project-specific expert validators on it, `/spec-driven:generic-design-review` is a generic baseline. The `implementation-validator` agent checks finished code against the plan it was built from. Used on Days 2 and 3 of the Agentic Engineering course. |
+| `loops` | `/loops:until-green "<test command>"` has Claude fix the code until the command passes, at most 5 rounds. A reference for the Day 3 loop homework, so it installs disabled: build your own loop first, then run `claude plugin enable loops@plepic-plugin-marketplace` to compare. |
 
 ## Credits
 
 - `teach`: Kaido Koort.
-- `spec-driven`: `brainstorming` is adapted from [obra/superpowers](https://github.com/obra/superpowers) by Jesse Vincent (MIT, see `plugins/spec-driven/LICENSE`). The design-doc validators are by Joosep Simm, adapted by Jevgeni Bogatyrjov. `generic-design-review` is by Vootele Rõtov.
+- `spec-driven`: `brainstorming` is adapted from [obra/superpowers](https://github.com/obra/superpowers) by Jesse Vincent (MIT, see `plugins/spec-driven/LICENSE`). The design-doc validators are by Joosep Simm, adapted by Jevgeni Bogatyrjov. `generic-design-review` and the `implementation-validator` agent are by Vootele Rõtov.
+- `loops`: Jevgeni Bogatyrjov.
 - Marketplace and packaging: Jevgeni Bogatyrjov.
 
 ## Add a plugin

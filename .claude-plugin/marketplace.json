@@ -26,6 +26,16 @@
         "validation",
         "brainstorming"
       ]
+    },
+    {
+      "name": "loops",
+      "source": "./plugins/loops",
+      "description": "Reference agent loop: Claude fixes the code until a test command passes, at most N rounds. Enable it after you have built your own loop, to compare.",
+      "keywords": [
+        "loop",
+        "tests",
+        "headless"
+      ]
     }
   ]
 }
