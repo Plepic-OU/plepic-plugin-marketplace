@@ -18,7 +18,7 @@ Change the code under test. Never change the tests the command runs.
 Last 60 lines of its output:
 $(tail -n 60 "$output_file")" \
     --permission-mode acceptEdits \
-    --allowedTools "Read,Edit,Write,Glob,Grep,Bash($test_command)"
+    --allowedTools "Read,Edit,Write,Glob,Grep,Bash($test_command*)"
 done
 
 if bash -c "$test_command" >"$output_file" 2>&1; then
