@@ -1,6 +1,5 @@
 {
   "name": "teach",
   "description": "Teaching mode: learn a session's work, a PR, or any topic step by step, with quizzes until you really get it.",
-  "version": "1.0.0",
-  "author": { "name": "Plepic" }
+  "author": { "name": "Kaido Koort" }
 }
